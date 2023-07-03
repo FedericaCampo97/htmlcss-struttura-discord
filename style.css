@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    width: 1100px;
+}
+.container_flex{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.678);
+    height: 60px;
+}
+#yellow{
+    height: 30px;
+    width: 600px;
+    background-color: rgba(255, 255, 0, 0.514);  
+}
+.blue{
+    background-color: rgba(0, 0, 255, 0.521);
+    height: 400px;
+}
+#acqua{
+    background-color: aqua;
+    height: 200px;
+    width: 500px;
+    border: dashed rgba(0, 0, 0, 0.562);
+}
+.griglia{
+    height: 400px;
+    margin-top: 20px;
+    border: dashed rgba(0, 0, 0, 0.562);
+}
+.container{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: rgba(255, 166, 0, 0.849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    background-color: rgba(165, 42, 42, 0.377);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    width: 60%;
+    height: 210px;
+    background-color: rgba(127, 255, 212, 0.671);
+    border: dashed rgba(0, 0, 0, 0.562);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col2{
+    width: 40%;
+    height: 210px;
+    background-color: rgba(127, 255, 212, 0.671);
+    border: dashed rgba(0, 0, 0, 0.418);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    width: 80%;
+    height: 150px;
+    background-color: rgba(0, 195, 255, 0.925);
+}
+.card2{
+    width: 80%;
+    height: 150px;
+    background-color: rgba(0, 195, 255, 0.925);
+}
+.griglia2{
+    border: dashed rgba(0, 0, 0, 0.418);
+    height: 900px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.orange{
+    background-color: rgba(255, 68, 0, 0.534);
+    height: 760px;
+    width: 70%;
+}
